@@ -307,7 +307,7 @@ def initialize_with_zeros(dim):
     
     ### START CODE HERE ### (≈ 1 line of code)
     w = np.zeros((dim, 1))
-    b = 0
+    b = float(0)        ##b should be of type float
     ### END CODE HERE ###
 
     assert(w.shape == (dim, 1))
